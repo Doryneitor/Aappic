@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Sniglet:wght@400;800&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+.content {
+  display: grid;
+  flex-direction:column;
+  overflow: auto;
+}
+
+
+.sidebar {
+  position: fixed;
+}
+
+/* ----------------------------- */
+
+
+.clouds {
+  position: relative;
+  z-index: 1;
+}
+
+.cloud-space {
+  position: absolute;
+  height: 540px;
+}
+
+.cssd {
+  right: 0%;
+}
+
+
+.iris {
+  position: absolute;
+  width: 100vw;
+  transform: translateY(200px);
+}
+
+.bk-rocket {
+  position: absolute;
+  transform: translateY(600px) translateX(90px);
+  z-index: 3;
+}
+
+.rk-mid {
+  transform: translateY(1400px) translateX(1400px) rotate(90deg);
+} 
+
+.bk-fugases {
+  position: absolute;
+  transform: translateY(170px);
+}
+
+.bk-clouds {
+  position: absolute;
+  z-index: 1;
+}
+
+.bk-cloud-mr {
+  transform: translateY(700px);
+}
+
+.bk-cloud-mr2 {
+  transform: translateY(2000px);
+}
+
+.bk-cloud-ml {
+  transform: translateY(1250px);
+  right: 0%;
+}
+
+.bk-cloud-ml2 {
+  transform: translateY(2200px);
+  right: 0%;
+}
+
+
+
+
+
+
+/* ----------------------------- */
+
+
+.blog-box1 {
+  display: flex;
+  height:100vh;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blanchedalmond;
+  opacity: 0.3; */
+  z-index: 6;
+}
+
+.title {
+  font-family: "Spicy Rice", serif;
+  font-size: 170px;
+  color: #fff8eaff;
+  text-shadow: 
+      2px -4px 0 #febc50ff,
+      4px -8px 0  #e66e59ff,
+      8px -12px 0 #d7578cff,
+      12px -16px 0 #5d5ca2ff;
+}
+
+.blog-box2 {
+  height: 90vh;
+  /* width: 100%; */
+  display:flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  z-index: 6;
+}
+
+.blog-video {
+  border: 3px solid rgba(93, 92, 162, 0.39);
+  overflow: hidden;
+  border-radius: 10%;
+  height: 850px;
+  box-shadow: 5px 5px 50px rgba(93, 92, 162, 0.651);
+}
+
+.content-info {
+  display: flex;
+  flex-direction: row;
+  padding: 120px;
+  gap: 40px;
+}
+
+
+.blog-box3 {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.blog-box3 > div {
+  box-shadow: 5px 5px 50px rgba(93, 92, 162, 0.651);
+}
+
+
+.blog-box4 {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.blog-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+
+
+
+
+

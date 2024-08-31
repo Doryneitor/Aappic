@@ -1,0 +1,103 @@
+.content{
+  overflow:hidden;
+}
+
+.clouds {
+  display: grid;
+  position: absolute;
+  justify-items: stretch;
+  overflow:hidden;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas: 
+  'cssi cssd'
+  'csii csid';
+  z-index: 1;
+}
+
+.cloud-space {
+  height: 540px;
+}
+
+.cssi {
+  grid-area: cssi;
+  /* background: #fff4; */
+}
+
+.cssd {
+  grid-area: cssd;
+}
+
+.csii {
+  grid-area: csii;
+}
+
+.csid {
+  grid-area: csid;
+}
+
+.background-space-container {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.background-moods {
+  position: absolute;
+  background-image: url(/src/assets/Emotions.png);
+  width: 100vw;
+  height: 100vh;
+  z-index: 6;
+}
+
+.colors-moods {
+  transform: translateX(550px) translateY(110px);
+  pointer-events:all;
+}
+
+#angry {
+  fill: #FF8C8C;
+  opacity: 0;
+}
+#sad {
+  fill:#FFBE0B;
+  opacity: 0;
+}
+#happy {
+  fill:#93FF4E;
+  opacity: 0;
+}
+#sick {
+  fill:#4EB5FF;
+  opacity: 0;
+}
+
+#angry:hover {
+  opacity: 0.3;
+}
+
+#sad:hover {
+  opacity: 0.3;
+}
+#happy:hover {
+  opacity: 0.3;
+}
+#sick:hover {
+  opacity: 0.3;
+}
+
+
+
+
+/* --------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
